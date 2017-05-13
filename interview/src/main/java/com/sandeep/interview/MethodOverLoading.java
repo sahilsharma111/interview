@@ -19,7 +19,7 @@ public class MethodOverLoading {
 		System.out.println("Objct");
 	}
 	public static void show(B str){
-		System.out.println("Stg");
+		System.out.println("String");
 	}
 	
 	
