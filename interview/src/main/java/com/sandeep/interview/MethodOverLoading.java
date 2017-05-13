@@ -25,9 +25,16 @@ public class MethodOverLoading {
 	
 	class A{
 		
-		
+		protected void show(){
+			System.out.println("A Call");
+		}
 	}
 	class B extends A{
-		
+
+		@Override
+		public void show() {
+			System.out.println("B");
+		}
+		 
 	}
 }
